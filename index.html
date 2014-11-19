@@ -13,23 +13,22 @@
     
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-7 col-sm-offset-2">
           <h3><strong>First step:</strong> Keycloack configurations</h3>
-          <p>Maybe a small text abou what this means and what is the default thing to do if you just want to skip it.</p>
-          
+          <p>UnifiedPush Server uses <a href="http://keycloak.jboss.org/">Keycloak</a> as an authentication and user management endpoint. You can either use a default instance that comes with UnifiedPush Server installation or you choose to select an existing or a standalone Keycloak installation (so you can use it as an authentication backend for more applications).</p>
           
           <form role="form">
           
             <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="Default" value="option1" checked>
-                Default <span class="alt">A text about what it means default</span>
+                Default <span class="alt">A bundled Keycloak instance will be used as an authentication backend</span>
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="Custom" value="option2">
-                Custom <span class="alt">Help text what custom mmeans</span>
+                Custom <span class="alt">Use an existing or a standalone Keycloak instance (by providing its URL)</span>
               </label>
             </div>
           
